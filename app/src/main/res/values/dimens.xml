@@ -7,6 +7,6 @@
         <dimen name="bottomMargin">20dp</dimen>
         <dimen name="screenMargin">15dp</dimen>
         <dimen name="topPadding">10dp</dimen>
-        <dimen name="editTextPadding">20dp</dimen>
+        <dimen name="editTextPadding">30dp</dimen>
 
     </resources>
