@@ -32,17 +32,19 @@
             tools:layout_editor_absoluteX="107dp"
             tools:layout_editor_absoluteY="182dp" />
 
+
         <TextView
             android:id="@+id/textView"
             style="@style/TextViewCustom"
-            android:layout_width="181dp"
-            android:layout_height="42dp"
+            android:layout_width="189dp"
+            android:layout_height="74dp"
             android:layout_margin="@dimen/screenMargin"
+            android:width="@dimen/textViewWidth"
+            android:height="@dimen/textViewHeight"
             android:paddingTop="@dimen/topPadding"
             android:text="Is this app cool?"
             tools:layout_editor_absoluteX="121dp"
             tools:layout_editor_absoluteY="288dp" />
-
 
         <Button
             android:id="@+id/button2"
