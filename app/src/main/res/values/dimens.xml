@@ -8,6 +8,7 @@
         <dimen name="screenMargin">15dp</dimen>
         <dimen name="topPadding">20dp</dimen>
         <dimen name="bottomPadding">20dp</dimen>
+        <dimen name = "fontSize">24sp</dimen>
 
 
 

@@ -32,7 +32,9 @@
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="107dp"
             tools:layout_editor_absoluteY="182dp"
-            android:paddingBottom="@dimen/bottomPadding"/>
+            android:paddingBottom="@dimen/bottomPadding"
+            android:layout_gravity="right"
+            />
 
 
         <TextView
@@ -47,7 +49,8 @@
             android:text="Is this app cool?"
             tools:layout_editor_absoluteX="121dp"
             tools:layout_editor_absoluteY="288dp"
-            android:paddingBottom="@dimen/bottomPadding"/>
+            android:paddingBottom="@dimen/bottomPadding"
+            android:layout_gravity="center"/>
 
         <Button
             android:id="@+id/button2"
@@ -64,7 +67,9 @@
             app:layout_constraintVertical_bias="0.666"
             app:rippleColor="@color/secondaryLightColor"
             android:paddingTop="@dimen/topPadding"
-            android:paddingBottom="@dimen/bottomPadding"/>
+            android:paddingBottom="@dimen/bottomPadding"
+            android:layout_gravity="left"
+            />
 
         <Button
             android:id="@+id/button"
@@ -77,7 +82,8 @@
             android:textColorLink="@color/secondaryLightColor"
             app:rippleColor="@color/secondaryLightColor"
             android:paddingTop="@dimen/topPadding"
-            android:paddingBottom="@dimen/bottomPadding"/>
+            android:paddingBottom="@dimen/bottomPadding"
+            android:layout_gravity="right"/>
 
         <RatingBar
             android:id="@+id/ratingBar2"
