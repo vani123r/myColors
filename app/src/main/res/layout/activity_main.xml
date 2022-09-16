@@ -26,11 +26,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/screenMargin"
+            android:paddingTop="@dimen/topPadding"
             android:ems="10"
             android:hint="Name"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="107dp"
-            tools:layout_editor_absoluteY="182dp" />
+            tools:layout_editor_absoluteY="182dp"
+            android:paddingBottom="@dimen/bottomPadding"/>
 
 
         <TextView
@@ -44,7 +46,8 @@
             android:paddingTop="@dimen/topPadding"
             android:text="Is this app cool?"
             tools:layout_editor_absoluteX="121dp"
-            tools:layout_editor_absoluteY="288dp" />
+            tools:layout_editor_absoluteY="288dp"
+            android:paddingBottom="@dimen/bottomPadding"/>
 
         <Button
             android:id="@+id/button2"
@@ -59,7 +62,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.666"
-            app:rippleColor="@color/secondaryLightColor" />
+            app:rippleColor="@color/secondaryLightColor"
+            android:paddingTop="@dimen/topPadding"
+            android:paddingBottom="@dimen/bottomPadding"/>
 
         <Button
             android:id="@+id/button"
@@ -70,7 +75,9 @@
             android:shadowColor="@color/secondaryColor"
             android:text="yes"
             android:textColorLink="@color/secondaryLightColor"
-            app:rippleColor="@color/secondaryLightColor" />
+            app:rippleColor="@color/secondaryLightColor"
+            android:paddingTop="@dimen/topPadding"
+            android:paddingBottom="@dimen/bottomPadding"/>
 
         <RatingBar
             android:id="@+id/ratingBar2"
@@ -83,7 +90,9 @@
             android:scrollbarAlwaysDrawVerticalTrack="false"
             android:scrollbarSize="10dp"
             android:scrollbarStyle="outsideOverlay"
-            android:scrollbars="horizontal" />
+            android:scrollbars="horizontal"
+            android:paddingTop="@dimen/topPadding"
+            android:paddingBottom="@dimen/bottomPadding"/>
 
     </LinearLayout>
 
